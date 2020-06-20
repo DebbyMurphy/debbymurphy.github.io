@@ -9,6 +9,23 @@ body {
 
 /* PORTFOLIO CODE HERE */
 
+* {
+    border: 1px dashed #3D3C3C;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+nav a {
+    display: flex;
+    min-width: 150px;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
 div#home-page-boxes {
     display: flex;
     justify-content: space-evenly;
@@ -31,7 +48,20 @@ div#projects-box{
     border: 2px solid #e91e63;
     display: flex;
     width: 60%;
+    background-color: #e91e63;
 }
+
+.skills-boxes {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 10px solid #ffffff;
+    background-color: #424242;
+    justify-content: space-between;
+}
+
+.skill-box-4
+
 
 /* MEDIA QUERY CODE HERE */
 

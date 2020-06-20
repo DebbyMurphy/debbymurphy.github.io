@@ -1,0 +1,149 @@
+body {
+    height: 100vh;
+    margin: 10px;
+    background-color: #ffffff;
+    color: #3D3C3C;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+/* PORTFOLIO CODE HERE */
+
+div#home-page-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+div#about-me-box {
+    border: 2px solid #e91e63;
+    display: flex;
+    width: 30%;
+}
+
+div#about-me-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+div#projects-box{
+    border: 2px solid #e91e63;
+    display: flex;
+    width: 60%;
+}
+
+/* MEDIA QUERY CODE HERE */
+
+@media (max-width: 1200px) {
+    div#home-page-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#about-me-box {
+    border: 2px solid #e91e63;
+    display: flex;
+    width: 100%;
+    }
+
+    div#projects-box{
+        border: 2px solid #e91e63;
+        display: flex;
+        width: 100%;
+    }
+}
+
+/*media query code drafts here
+
+
+
+div#home-page-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+div#about-me-wrapper {
+    width: 30%;
+    border: 5px solid #e91e63;
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+
+
+/* OLD CODE HERE 
+
+header img {
+    width: 150px;
+    height: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+body {
+    text-align: center;
+}
+
+img.profile-images {
+    text-align: centre;
+    display: inline-block;
+    width: 30vw;
+}
+
+div#content-wrapper {
+    border-top: 1px solid #8246af;
+    border-bottom: 1px solid #8246af;
+    padding-bottom: 75px;
+ }
+
+ */
+
+/* OLD MEDIA QUERIES 
+
+@media (min-width: 500px) {
+    header img {
+        display: inline;
+        vertical-align: middle;
+    }
+
+    header img {
+        width: 30vw;
+    }
+
+    header h1 {
+        display: inline;
+        vertical-align: middle;
+    }
+
+    header h1 {
+        width: 60vw;
+    }
+
+    header {
+        padding-bottom: 0.5em;
+    }
+
+    #content-wrapper {
+        display: flex;
+        align-items: center;
+        padding-top: 3px;
+    }
+
+    div #text {
+        text-align: left;
+        width: 50%;
+    }
+
+    div#image-wrapper {
+        text-align: left;
+    }
+
+}
+
+*/

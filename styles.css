@@ -43,6 +43,9 @@ header {
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
+    margin-bottom: 20px;
+   
+    border-bottom: 1px solid #424242;
 }
 
 nav {
@@ -59,6 +62,16 @@ nav a {
     font-size: 1.25em;
 }
 
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-top: 1px solid #424242;
+}
+
+
 /* CONTACT PAGE CONTENT */
 
 /* CONTACT PAGE MEDIA QUERIES */
@@ -69,12 +82,15 @@ nav a {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
+    background-color: #424242;
 }
 
 #about-me-box {
     display: flex;
     border: 2px solid #e91e63;
     width: 30%;
+    background-color: #ffffff;
+    margin: 2px;
 }
 
 #about-me-text {
@@ -92,6 +108,7 @@ nav a {
     align-items: center;
     flex-wrap: wrap;
     width: 60%;
+    margin: 2px;
 }
 
 .skills-boxes {
@@ -102,7 +119,40 @@ nav a {
     margin: 10px;
     border: 10px solid #ffffff;
     background-color: lightgrey;
-    padding-left: 5px;
+    position: relative;
+}
+
+.skills-boxes h3 {
+    position: absolute;
+    top: 1em;
+    left: 0;
+    width: 100%;
+}
+
+.skills-boxes p {
+    position: absolute;
+    top: 4em;
+    left: 0;
+    width: 100%;
+}
+
+.skills-boxes img {
+    display: flex;
+    width: 300px;
+}
+
+.skills-box-text h3 {
+    background-color: #e91e63;
+    color: #ffffff;
+    width: auto;
+    padding: 5px;
+}
+
+.skills-box-text p {
+    background-color: #e91e63;
+    color: #ffffff;
+    width: auto;
+    padding: 5px;
 }
 
 
@@ -148,9 +198,3 @@ nav a {
     }
 }
 
-/* FOOTER */
-
-footer {
-    display: flex;
-    justify-content: center;
-}

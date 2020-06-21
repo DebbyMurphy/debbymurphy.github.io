@@ -1,28 +1,48 @@
+
+* {
+    border: 1px dashed #424242;
+}
+/* BODY */
+
 body {
     height: 100vh;
     margin: 10px;
     background-color: #ffffff;
-    color: #3D3C3C;
+    color: #424242;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     position: relative;
 }
 
-/* PORTFOLIO CODE HERE */
-
-
-body {
-    font-size: 16px;
-    color: #424242;
-}
+/* LINKS*/
 
 a {
     color: #e91e63;
     text-decoration: none;
 }
 
+header a:hover {
+    color: #e91e63;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 nav {
     display: flex;
-    justify-content: end;
+    margin-left: auto;
 }
 
 nav a {
@@ -33,169 +53,57 @@ nav a {
     align-items: center;
 }
 
-div#home-page-boxes {
+/* CONTACT PAGE CONTENT */
+
+/* CONTACT PAGE MEDIA QUERIES */
+
+/* HOME PAGE CONTENT */
+
+#home-page {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
 }
 
-div#about-me-box {
-    border: 2px solid #e91e63;
+#about-me-box {
     display: flex;
+    border: 2px solid #e91e63;
     width: 30%;
 }
 
-div#about-me-text {
+#about-me-text {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    
 }
 
-div#projects-box{
+
+#skills-container {
     background-color: #e91e63;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 60%;
-
 }
 
 .skills-boxes {
+   display: flex;
+   flex-direction: column;
     width: 200px;
     height: 200px;
     margin: 10px;
     border: 10px solid #ffffff;
-    background-color: #424242;
-    justify-content: space-between;
+    background-color: lightgrey;
 }
 
-.skill-box-4
 
-/* LINK STYLING */
-
+/* HOME PAGE MEDIA QUERIES */
 
 
-/*
-  a:active {
-    font-weight: bold;
-  }
+/* FOOTER */
 
-  a:visited:active {
-    font-weight: bold;
-  }
-
-  */
-
-
-/* MEDIA QUERY CODE HERE */
-
-@media (max-width: 1200px) {
-    div#home-page-boxes {
-        display: flex;
-        flex-direction: column;
-    }
-
-    div#about-me-box {
-    border: 2px solid #e91e63;
+footer {
     display: flex;
-    width: 100%;
-    }
-
-    div#projects-box{
-        border: 2px solid #e91e63;
-        display: flex;
-        width: 100%;
-    }
+    justify-content: center;
 }
-
-/*media query code drafts here
-
-
-
-div#home-page-boxes {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-div#about-me-wrapper {
-    width: 30%;
-    border: 5px solid #e91e63;
-    display: flex;
-    height: 100%;
-    align-items: center;
-
-}
-
-
-/* OLD CODE HERE 
-
-header img {
-    width: 150px;
-    height: 100%;
-}
-
-header h1 {
-    text-align: center;
-    font-size: 28px;
-}
-
-body {
-    text-align: center;
-}
-
-img.profile-images {
-    text-align: centre;
-    display: inline-block;
-    width: 30vw;
-}
-
-div#content-wrapper {
-    border-top: 1px solid #8246af;
-    border-bottom: 1px solid #8246af;
-    padding-bottom: 75px;
- }
-
- */
-
-/* OLD MEDIA QUERIES 
-
-@media (min-width: 500px) {
-    header img {
-        display: inline;
-        vertical-align: middle;
-    }
-
-    header img {
-        width: 30vw;
-    }
-
-    header h1 {
-        display: inline;
-        vertical-align: middle;
-    }
-
-    header h1 {
-        width: 60vw;
-    }
-
-    header {
-        padding-bottom: 0.5em;
-    }
-
-    #content-wrapper {
-        display: flex;
-        align-items: center;
-        padding-top: 3px;
-    }
-
-    div #text {
-        text-align: left;
-        width: 50%;
-    }
-
-    div#image-wrapper {
-        text-align: left;
-    }
-
-}
-
-*/

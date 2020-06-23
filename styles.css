@@ -36,7 +36,6 @@ header {
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 20px;
-   
     border-bottom: 1px solid #424242;
 }
 
@@ -141,7 +140,6 @@ footer {
 
 .skills-boxes img {
     display: flex;
-    width: 300px;
 }
 
 .skills-box-text h3 {

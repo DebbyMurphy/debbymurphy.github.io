@@ -62,6 +62,20 @@ nav a {
     font-size: 1.25em;
 }
 
+
+/* HEADER MEDIA QUERIES */
+
+@media (max-width: 1200px) {
+    header {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    nav a {
+        min-width: 70px;
+        min-height: auto;
+    }
+}
+
 /* FOOTER */
 
 footer {
@@ -70,11 +84,6 @@ footer {
     margin-top: 20px;
     border-top: 1px solid #424242;
 }
-
-
-/* CONTACT PAGE CONTENT */
-
-/* CONTACT PAGE MEDIA QUERIES */
 
 /* HOME PAGE CONTENT */
 
@@ -179,19 +188,74 @@ footer {
         flex-wrap: wrap;
         width: 100%;
     }
-    
+
 }
 
-/* HEADER MEDIA QUERIES */
+/* CONTACT PAGE CONTENT */
 
-@media (max-width: 1200px) {
-    header {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    nav a {
-        min-width: 70px;
-        min-height: auto;
-    }
+#contact-form-container  {
+    background-color: #e91e63;
+    border: 2px solid #e91e63;
+    color: #ffffff;
+    width: 60%;
 }
 
+#contact-form-container h2 {
+    margin: auto;
+    width: 90%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+form {
+    border-top: 1px solid #424242;
+    margin: auto;
+    padding-top: 25px;
+    width: 90%;
+}
+
+/* FORM FORMATTING COPIED FROM CLASS TUTORIAL */
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #424242;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 1px solid #424242;
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.form-item button:hover {
+    border: 1px solid #ffffff;
+    background-color: #e91e63;
+    color: #FFF;
+}
+
+.form-item button {
+    width: 100px;
+}
+
+
+/* CONTACT PAGE MEDIA QUERIES */

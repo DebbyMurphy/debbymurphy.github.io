@@ -124,9 +124,13 @@ footer {
     width: 300px;
     height: 300px;
     margin: 10px;
-    border: 10px solid #ffffff;
+    border: 5px solid #ffffff;
     background-color: lightgrey;
     position: relative;
+}
+
+.skills-boxes:hover {
+    border: 10px solid #ffffff;
 }
 
 .skills-boxes h3 {
@@ -193,28 +197,85 @@ footer {
 
 /* CONTACT PAGE CONTENT */
 
-#contact-form-container  {
+#contact-page {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #424242;
+}
+
+#about-me-container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+#about-me-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    position: relative;
+}
+
+#about-me-content img {
+    display: flex; 
+    width: 100%;
+}
+
+#about-me-content p {
+    background-color: #424242; 
+    color: #ffffff;
+}
+
+#linkedin-overlay {
+    display: flex; 
+    width: 75%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 5em;
+    font-size: 18px;
+}
+
+#github-overlay {
+    display: flex; 
+    width: 75%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 1em;
+    font-size: 18px;
+}
+
+
+
+#contact-form-container {
     background-color: #e91e63;
     border: 2px solid #e91e63;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 60%;
 }
 
 #contact-form-container h2 {
-    margin: auto;
-    width: 90%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    display: flex;
+    padding-left: 20px;
 }
 
 form {
     border-top: 1px solid #424242;
-    margin: auto;
     padding-top: 25px;
-    width: 90%;
 }
 
-/* FORM FORMATTING COPIED FROM CLASS TUTORIAL */
+
+
+/* FORM FORMATTING */
 
 .form-item {
     display: flex;

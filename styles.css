@@ -147,6 +147,10 @@ footer {
     width: 100%;
 }
 
+#skill-box-seo p {
+    top: 5em;
+}
+
 .skills-boxes img {
     display: flex;
     height: 100%;

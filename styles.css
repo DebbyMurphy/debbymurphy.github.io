@@ -149,6 +149,8 @@ footer {
 
 .skills-boxes img {
     display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 .skills-box-text h3 {
@@ -370,6 +372,7 @@ form {
 
     #about-me-content img {
         width: 250px;
+        height: 332px;
     }
 
     #linkedin-overlay {

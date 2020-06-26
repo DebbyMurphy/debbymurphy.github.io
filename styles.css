@@ -330,7 +330,7 @@ form {
 /* CONTACT PAGE MEDIA QUERIES */
 
 
-@media (max-width: 500px) {
+@media (max-width: 740px) {
     #contact-page {
         flex-direction: column;
         padding: 5%;

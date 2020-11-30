@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 /* BODY */
 
 body {
@@ -9,6 +11,7 @@ body {
     color: #424242;
     font-size: 16px;
     position: relative;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #home-h1 {
@@ -132,7 +135,7 @@ nav a {
     nav a {
         min-width: 70px;
         min-height: auto;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     h1 {

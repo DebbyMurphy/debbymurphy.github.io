@@ -11,6 +11,11 @@ body {
     position: relative;
 }
 
+#home-h1 {
+    font-size: 50px;
+}
+
+
 .home-page-container {
     text-align: center;
     margin: 0;
@@ -44,6 +49,11 @@ body {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#project-1:hover, #project-2:hover, #project-3:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 14px 28px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid white;
 }
 
 #project-1 p, #project-2 p, #project-3 p, #project-1 h2, #project-2 h2, #project-3 h2 {
@@ -128,6 +138,11 @@ nav a {
     h1 {
         font-size: 24px;
     }
+
+    #home-h1 {
+        font-size: 24px;
+    }
+    
 
     h2 {
         font-size: 20px;

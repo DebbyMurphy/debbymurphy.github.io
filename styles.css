@@ -42,7 +42,7 @@ body {
 }
 
 #project-1, #project-2, #project-3 {
-    max-width: 422px;
+    max-width: 420px;
     height: 600px;
     display: flex;
     flex-direction: column;
